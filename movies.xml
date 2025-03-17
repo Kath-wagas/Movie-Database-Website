@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movies.xsl"?>
+<movies>
+    <movie id="1">
+        <movieTitle>The Lion King</movieTitle>
+        <director>Roger Allers and Rob Minkoff</director>
+        <year>1994</year>
+        <actors>
+            <actor>Matthew Broderick</actor>
+            <actor>Jeremy Irons</actor>
+            <actor>James Earl Jones</actor>
+        </actors>
+    </movie>
+    <movie id="2">
+        <movieTitle>Frozen</movieTitle>
+        <director>Chris Buck and Jennifer Lee</director>
+        <year>2013</year>
+        <actors>
+            <actor>Kristen Bell</actor>
+            <actor>Idina Menzel</actor>
+            <actor>Josh Gad</actor>
+        </actors>
+    </movie>
+    <movie id="3">
+        <movieTitle>Moana</movieTitle>
+        <director>Ron Clements and John Musker</director>
+        <year>2016</year>
+        <actors>
+            <actor>Auli'i Cravalho</actor>
+            <actor>Dwayne Johnson</actor>
+            <actor>Rachel House</actor>
+        </actors>
+    </movie>
+    <movie id="4">
+        <movieTitle>Aladdin</movieTitle>
+        <director>Guy Ritchie</director>
+        <year>2019</year>
+        <actors>
+            <actor>Mena Massoud</actor>
+            <actor>Naomi Scott</actor>
+            <actor>Will Smith</actor>
+        </actors>
+    </movie>
+    <movie id="5">
+        <movieTitle>Beauty and the Beast</movieTitle>
+        <director>Bill Condon</director>
+        <year>2017</year>
+        <actors>
+            <actor>Emma Watson</actor>
+            <actor>Dan Stevens</actor>
+            <actor>Luke Evans</actor>
+        </actors>
+    </movie>
+</movies>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disney Movie Database</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #ffccdd;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color:#d63384;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .movie-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .movie-table th {
+            background: #d63384;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        .movie-table td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .movie-table tr:hover {
+            background: #ffe6ee;
+        }
+        .actors-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .query-section {
+            margin-top: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .query-result {
+            background: #ffe6ee;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Disney Movie Database</h1>
+        <table class="movie-table">
+            <tr>
+                <th>ID</th>
+                <th>Movie Title</th>
+                <th>Director</th>
+                <th>Year</th>
+                <th>Actors</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>The Lion King</td>
+                <td>Roger Allers and Rob Minkoff</td>
+                <td>1994</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Matthew Broderick</li>
+                        <li>Jeremy Irons</li>
+                        <li>James Earl Jones</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Frozen</td>
+                <td>Chris Buck and Jennifer Lee</td>
+                <td>2013</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Kristen Bell</li>
+                        <li>Idina Menzel</li>
+                        <li>Josh Gad</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Moana</td>
+                <td>Ron Clements and John Musker</td>
+                <td>2016</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Auli'i Cravalho</li>
+                        <li>Dwayne Johnson</li>
+                        <li>Rachel House</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Aladdin</td>
+                <td>Guy Ritchie</td>
+                <td>2019</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Mena Massoud</li>
+                        <li>Naomi Scott</li>
+                        <li>Will Smith</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Beauty and the Beast</td>
+                <td>Bill Condon</td>
+                <td>2017</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Emma Watson</li>
+                        <li>Dan Stevens</li>
+                        <li>Luke Evans</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="query-section">
+            <h2>XPath Query Results</h2>
+            
+            <h3>All Movie Titles:</h3>
+            <div class="query-result">
+                <div>The Lion King</div>
+                <div>Frozen</div>
+                <div>Moana</div>
+                <div>Aladdin</div>
+                <div>Beauty and the Beast</div>
+            </div>
+
+            <h3>Director of the Second Movie:</h3>
+            <div class="query-result">
+                <div>Chris Buck and Jennifer Lee</div>
+            </div>
+
+            <h3>Actors of the Fourth Movie:</h3>
+            <div class="query-result">
+                <div>Mena Massoud</div>
+                <div>Naomi Scott</div>
+                <div>Will Smith</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
